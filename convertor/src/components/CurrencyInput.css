@@ -1,0 +1,32 @@
+.group{
+  background: #9ba42ab3;
+  margin: 0 auto 20px;
+  display: grid;
+  grid-template-columns: 100px 80px;
+  border-radius: 15px;
+  height: 5vh;
+  width: 200px;
+}
+input,select{
+  background: none;
+  border:0;
+  color:#fff;
+  outline: none;
+}
+input{
+  padding-left: 10px;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  resize: horizontal;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+
+}
+select{
+  padding: 10px;
+  color:rgb(10, 10, 10);
+}
